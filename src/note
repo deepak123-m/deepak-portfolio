@@ -1,0 +1,7 @@
+scale-105 means 1.05 * size
+duration-200 means duration 200mseconds
+hidden md:flex -  For md items should flex and for all others items should hidden
+/home 
+group in portfolio button combines both button and span 
+max-widt ; This propery automatically increase height if content is big
+Finally #sigma found mx-auto will center the container cry:( max-width-screen-lg has no involvement
