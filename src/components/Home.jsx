@@ -13,8 +13,8 @@ const Home = () => {
             <h3 className="text-4xl sm:text-7xl font-bold text-white">I'm a Full Stack Developer</h3>
             <p className="text-gray-500 mt-4 py-4 max-w-md">
             I have 1 year of experience building and desgining software.
-            Currently, I love to work on web application using technologies like
-            React, Tailwind, Nodejs, Javascript and MongoDB.
+            Currently, I love to work on web application using technologies like HTML, CSS, Tailwind Css, Bootstrap, React JS, JavaScript, Node JS, Express JS, MongoDB, MySQL and postgreSQL
+          
             </p>
 
             <div>
@@ -28,7 +28,7 @@ const Home = () => {
         </div>
 
         <div>
-          <img src={HeroImage} alt="my profile"  className = "md:pl-60  rounded-2xl mx-auto w-2/3 md:w-full"/>
+          <img src={HeroImage} alt="my profile"  className = "md:pl-60  sm:my-4 sm:w-full rounded-2xl mx-auto w-2/3 md:w-full"/>
         </div>
       </div>
     </div>

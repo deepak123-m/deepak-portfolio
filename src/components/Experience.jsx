@@ -5,6 +5,8 @@ import javascript from "../assets/javascript.png"
 import reactImage from "../assets/react.png"
 import github from "../assets/github.png"
 import tailwind from "../assets/tailwind.png"
+import mongodb from "../assets/mongodb.png"
+import nodejs from "../assets/node.png"
 const Experience = () => {
 const techs = [
     {
@@ -39,15 +41,27 @@ const techs = [
     },
     {
         id:6,
+        src:nodejs,
+        title:'Node js',
+        style:'shadow-green-400'
+    },
+    {
+        id:7,
+        src:mongodb,
+        title:'Mongo DB',
+        style:'shadow-green-800'
+    },
+    {
+        id:8,
         src:github,
         title:'GitHub',
         style:'shadow-gray-400'
-    }
+    },
 
 ]
 
   return (
-    <div name="experience" className="bg-gradient-to-b  from-gray-800 to-black w-full sm:h-full md:h-screen">
+    <div name="experience" className="bg-gradient-to-b sm:my-4 from-gray-800 to-black w-full sm:h-full md:h-screen">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
             <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">Experience</p>

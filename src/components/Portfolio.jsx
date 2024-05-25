@@ -5,6 +5,7 @@ import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import xclone from "../assets/portfolio/X-clone.png"
 
 const Portfolio = () => {
 
@@ -19,7 +20,9 @@ const portfolios=[
     },
     {
         id:2,
-        src : reactParallax
+        src : xclone,
+        lin:"https://deepak-socialmedia.netlify.app/login",
+        github:"https://github.com/deepak123-m/social-media"
     },
     {
         id:3,
@@ -27,7 +30,7 @@ const portfolios=[
     },
     {
         id:4,
-        src : installNode
+        src : reactParallax
     },
     {
         id:5,
