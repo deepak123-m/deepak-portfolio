@@ -20,7 +20,7 @@ const portfolios=[
     {
         id:2,
         src : xclone,
-        lin:"https://deepak-socialmedia.netlify.app/login",
+        lin:"https://deepak-socialmedia.netlify.app",
         github:"https://github.com/deepak123-m/social-media"
     },
     {
